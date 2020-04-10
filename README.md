@@ -45,11 +45,11 @@ A demonstration of optimized bubble-sort method which sorts in ascending mode th
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 ​
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Live Version](#live-version)
-* [Acknowledgements](#acknowledgements)
-* [License](#license)
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Live Version](#live-version)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 ​
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -70,14 +70,13 @@ end
 ​
 print bubble_sort([1, 3, 42, 54, 21, 221, 31, 2, 0])
 ​
-​
 ```
 ​
 ### Built With
 This project was built using these technologies.
-* Ruby
-* Rubocop
-* VsCode
+- Ruby
+- Rubocop
+- VsCode
 ​
 <!-- LIVE VERSION -->
 ## Live version
@@ -98,9 +97,9 @@ You can see it working [here]()
 ​
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Microverse](https://www.microverse.org/)
-* [The Odin Project](https://www.theodinproject.com/)
-* [Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
+- [Microverse](https://www.microverse.org/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
 ​
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -114,6 +113,6 @@ You can see it working [here]()
 [issues-url]: https://github.com/ioanniskousis/bubble_sort/issues
 [product-screenshot]: images/bubble_sort.jpg
 ​
-## �� License
+## 📝 License
 ​
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
