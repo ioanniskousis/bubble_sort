@@ -42,6 +42,7 @@ A demonstration of optimized bubble-sort method which sorts in ascending mode th
   </p>
 </p>
 ​
+<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 ​
 * [About the Project](#about-the-project)
