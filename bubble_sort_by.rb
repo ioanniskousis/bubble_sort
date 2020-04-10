@@ -14,15 +14,3 @@ def bubble_sort_by(array)
   end
   array
 end
-
-array_of_words = %w[hi hello hey]
-bubble_sort_by(array_of_words) do |left, right|
-  left.length <=> right.length
-end
-p array_of_words
-
-array_of_words = %w[your name is Ruby nice to meet you]
-bubble_sort_by(array_of_words) do |left, right|
-  left.length <=> right.length
-end
-p array_of_words
