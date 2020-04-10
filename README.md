@@ -125,6 +125,7 @@ You can see it working [![Run on Repl.it](https://repl.it/badge/github/ioannisko
 [product-screenshot]: images/bubble_sort.jpg
 
 <!-- LICENSE -->
-📝 ## License
+📝 
+## License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
