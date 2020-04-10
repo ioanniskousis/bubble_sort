@@ -1,5 +1,7 @@
-# Demonstaration of The Bubble Sort Algorithm 
-A demonstration of optimized bubble-sort method which sorts in ascending mode the elements of a collection using Ruby language
+# Demonstration of The Bubble Sort Algorithm 
+A demonstration of optimized bubble-sort method which sorts in ascending mode the elements of a collection using Ruby language.
+This is a project of the Microverse Ruby Course.
+
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
@@ -53,24 +55,34 @@ A demonstration of optimized bubble-sort method which sorts in ascending mode th
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Screen Shot][product-screenshot]](https://repl.it/@ioanniskousis/bubble_sort)
+The project consists of three code files
+- bubble_sort.rb
+  Contains the method bubble_sort.
+  The bubble_sort methods accepts either an array of numbers and sorts them according to their value in ascending order or an array of strings and sorts them in ascending order alphabetically.
+  An error occurs if the method is passed an array with mixed numbers and strings.
 
-This is a project of the Microverse Ruby Course
+- bubble_sort_by.rb
+  Contains the method bubble_sort_by.
+  The bubble_sort_by method accepts an array of strings and sorts them according to their size (length) in ascending order.
+  Also, it uses a block to manage the sorting procedure which is called-back by a yield statement inside the method.
+  An error occurs if the method is passed an array of numbers.
+
+- test.rb
+  Contains test code for the two methods
+
+Both methods include an optimization practice by reducing the total number of comparisons required in the original Bubble-Sort Algorithm. Actually, since at every loop of sorting the largest item is bubbled at the end of the list, the number of comparisons is reduced by one after every loop circle.
 
 <!-- ABOUT THE PROJECT -->
 ## Testing
 
-To test the code you need to give it some test cases like the ones below and execute it to see if it performs as expected:
-
-```
-bubble_sort_by(["available", "bubble", "hi", "hello", "hey"]) do |left, right|
-  left.length <=> right.length
-end
-
-print bubble_sort([1, 3, 42, 54, 21, 221, 31, 2, 0])
-
-```
-
+You may test the code either by running the test.rb file using Ruby or provide your own array such as
+- for bubble_sort
+  [10, 9, 5, 2, 3, 4] or
+  [5.45, 3.1, 3, 2, 1]
+- for bubble_sort_by
+  ['avalon', 'beta', 'con']
+  Please note, the method bubble_sort_by requires a block of the form {|x, y| x <=> y}.
+  
 ### Built With
 This project was built using these technologies.
 - Ruby

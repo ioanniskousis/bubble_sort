@@ -2,7 +2,7 @@ require_relative 'bubble_sort'
 require_relative 'bubble_sort_by'
 
 puts '** The method "bubble_sort" accepts array of numbers and sorts them numericaly **'
-puts '** or array of strings and sorts them alphabeticaly **'
+puts '** or array of strings and sorts them alphabetically **'
 puts
 array_of_numbers = [4, 3, 78, 2, 0, 2]
 puts '- Testing "bubble_sort" with array of Integers ' + array_of_numbers.to_s
