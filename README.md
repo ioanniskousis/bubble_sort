@@ -37,7 +37,7 @@ This is a project of the Microverse Ruby Course.
     <a href="https://github.com/ioanniskousis/bubble_sort"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://repl.it/@ioanniskousis/bubble_sort">View Demo</a>
+    <a href="https://repl.it/badge/github/ioanniskousis/bubble_sort">View Demo</a>
     <a href="https://github.com/ioanniskousis/bubble_sort/issues">Report Bug</a>
     <a href="https://github.com/ioanniskousis/bubble_sort/issues">Request Feature</a>
   </p>
@@ -92,7 +92,7 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it working [here]()
+You can see it working [![Run on Repl.it](https://repl.it/badge/github/ioanniskousis/bubble_sort)](https://repl.it/github/ioanniskousis/bubble_sort)
 
 <!-- CONTACT -->
 ## Contributors
