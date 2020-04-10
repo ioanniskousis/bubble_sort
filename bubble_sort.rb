@@ -23,3 +23,7 @@ p array_of_numbers
 array_of_numbers = [2, 1, 340, 100, 12.99, 12.56, 15, 0.34, 3]
 bubble_sort(array_of_numbers)
 p array_of_numbers
+
+array_of_strings = %w[hi hello hey barrow available]
+bubble_sort(array_of_strings)
+p array_of_strings
