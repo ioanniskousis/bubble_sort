@@ -124,6 +124,7 @@ You can see it working [![Run on Repl.it](https://repl.it/badge/github/ioannisko
 [issues-url]: https://github.com/ioanniskousis/bubble_sort/issues
 [product-screenshot]: images/bubble_sort.jpg
 
+<!-- LICENSE -->
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
